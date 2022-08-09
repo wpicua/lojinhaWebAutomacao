@@ -1,15 +1,10 @@
 package modulos.produtos;
 
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import paginas.LoginPage;
-
 import java.time.Duration;
-import java.util.List;
-import java.util.Set;
 
 @DisplayName("Testes WEB do Modulo de Produtos")
 
@@ -108,7 +103,6 @@ public class ProdutosTest {
         Assertions.assertEquals("Produto adicionado com sucesso", mensagemApresentada);
 
     }
-
 
     @AfterEach
     public void afterEach() {
